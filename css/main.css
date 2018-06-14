@@ -1,0 +1,256 @@
+/* ------------------ GLOBAL ------------------ */
+
+* {
+	color: #a8a8a8;
+	font-family: "IBM Plex Sans", sans-serif;
+}
+
+a {
+	color: #b43117;
+	transition: color 0.4s;
+}
+
+a:hover {
+	color: #e68216;
+	text-decoration: none;
+	transition: color 0.4s;
+}
+
+html {
+	padding-top: 20px;
+	text-align: center;
+	width: 100%;
+	background-color: #0b1116;
+}
+
+body {
+	position: relative;
+	display: inline-block;
+	width: 80%;
+	margin: 0px auto;
+	text-align: center;
+	background-color: #181a1d;
+}
+
+body:not(.user-is-tabbing) *:focus,
+body:not(.user-is-tabbing) input:focus,
+body:not(.user-is-tabbing) select:focus,
+body:not(.user-is-tabbing) textarea:focus {
+	outline: none;
+}
+
+.row {
+	padding: 10px 0 10px 0;
+}
+
+.block-row {
+	display: block;
+}
+
+.container {
+	padding: 5px;
+}
+
+.card-footer.page-footer {
+	color: #393939;
+	font-size: 13px;
+	text-transform: uppercase;
+	letter-spacing: 1.5px;
+}
+
+.card-footer.page-footer a {
+	color: #393939;
+	transition: color 0.4s;
+}
+
+.card-footer.page-footer a:hover {
+	color: #e68216;
+	transition: color 0.4s;
+}
+
+/* ------------------ MODAL ------------------ */
+
+.modal-content {
+	background-color: #191919;
+}
+
+.modal-list {
+	text-align: left;
+}
+
+/* ------------------ NAVBAR ------------------ */
+
+.navbar {
+	background-color: #0b1016 !important;
+	box-sizing: border-box;
+	border: solid #e68216;
+	border-width: 0 0 2px 0;
+	padding: 0;
+	font-size: 17px;
+}
+
+.navbar-brand {
+	padding: 0;
+	margin-right: 12px;
+}
+
+#nav-img {
+	opacity: 1;
+	transition: filter 0.4s;
+}
+
+#nav-img:hover {
+	filter: brightness(130%);
+	transition: filter 0.4s;
+}
+
+.nav-item {
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 4px;
+	text-transform: uppercase;
+	letter-spacing: 1.5px;
+}
+
+.nav-item .nav-link {
+	color: #e68216;
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+}
+
+.nav-item .nav-link:hover {
+	color: #b74b15;
+}
+
+.nav-item.active .nav-link {
+	color: #b74b15;
+	border-bottom: 2px solid #b74b15;
+	padding-bottom: 2px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+/* ------------------ HOMEPAGE ------------------ */
+
+.homepage-text {
+	font-weight: 300;
+}
+
+/* ------------------ VERTICAL NAV ------------------ */
+
+.nav-item.vertical-nav {
+	 text-align: left;
+ }
+
+.nav-item.vertical-nav .nav-link {
+	padding: 4px 0 4px 0;
+	border: solid transparent;
+	border-width: 0 0 2px 0;
+	transition: border-bottom-color 0.4s, color 0.4s;
+}
+
+.nav-item.vertical-nav.active .nav-link {
+	border: solid #b74b15;
+	border-width: 0 0 2px 0;
+	transition: border-bottom-color 0.4s, color 0.4s;
+}
+
+.nav-item.vertical-nav-num {
+	text-align: right;
+}
+
+.nav-item.vertical-nav-num .nav-link-num {
+	color: #4e555b;
+	padding: 0;
+	transition: color 0.4s;
+	font-size: 60px;
+	font-weight: 600;
+	line-height: 60px;
+}
+
+.nav-item.vertical-nav-num .nav-link-num:hover {
+	color: #b43117;
+	padding: 4px 0 4px 0;
+	transition: color 0.4s;
+}
+
+.nav-item.vertical-nav-num.active .nav-link-num {
+	color: #b43117;
+	transition: color 0.4s;
+}
+
+.nav-collapse-num {
+	padding-top: 20px;
+}
+
+.nav-item.cat-header .nav-link {
+	color: gray;
+	font-family: "IBM Plex Sans", sans-serif;
+	font-weight: bold;
+	font-size: 12px;
+	padding: 20px 0 5px 0;
+}
+
+.nav-item.cat-header .nav-link:hover {
+	color: #e68216;
+}
+
+/* ------------------ CONTENT PAGE ------------------ */
+
+#content-container-main {
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+.content-container {
+	text-align: left;
+}
+
+.content-container-hidden {
+	display: none;
+}
+
+.content-header-outer {
+	padding-bottom: 15px;
+}
+
+.content-tagline {
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 1.5px;
+	color: #518451;
+}
+
+.content-table-header {
+	font-weight: 500;
+	padding: 5px 0 5px 0;
+}
+
+.content-table-data {
+	padding: 5px 0 5px 15px;
+	font-weight: 300;
+}
+
+.content-table-outer {
+	padding-bottom: 25px;
+}
+
+.content-info {
+	font-weight: 300;
+}
+
+.content-header-outer {
+	padding-bottom: 15px;
+}
+
+.exp-date {
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 1.5px;
+	color: #808080;
+}
+
+.exp-title-arrow {
+	color: #4e555b;
+	font-size: 35px;
+}
